@@ -26,7 +26,7 @@ import android.support.v17.leanback.widget.GuidedAction;
 import android.text.InputType;
 import android.widget.Toast;
 
-import com.example.android.tvleanback.R;
+import myteli.R;
 
 import java.util.List;
 

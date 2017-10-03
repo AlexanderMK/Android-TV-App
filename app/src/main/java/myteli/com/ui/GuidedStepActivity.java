@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package myteli.com;
+package myteli.com.ui;
 
 import android.app.Activity;
 import android.app.FragmentManager;

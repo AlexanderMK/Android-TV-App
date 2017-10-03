@@ -82,7 +82,7 @@ public class AuthenticationActivity extends Activity {
                 // TODO Authenticate your account
                 // Assume the user was logged in
                 Toast.makeText(getActivity(), "Welcome!", Toast.LENGTH_SHORT).show();
-                getActivity().finishAfterTransition();
+                getActivity().finshAfterTransition();
             }
         }
     }

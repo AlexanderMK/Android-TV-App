@@ -19,9 +19,9 @@ import java.util.List;
 
 public final class MovieList {
     public static final String MOVIE_CATEGORY[] = {
-            "Category Zero",
-            "Category One",
-            "Category Two",
+            "Movie List",
+            "Music Videos",
+            "My Pics",
             "Category Three",
             "Category Four",
             "Category Five",

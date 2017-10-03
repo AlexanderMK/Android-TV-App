@@ -10,6 +10,6 @@ public abstract class MyteliActivity extends FragmentActivity {
     @Override
     public boolean onSearchRequested() {
         startActivity(new Intent(this, SearchActivity.class));
-        return true;
+        return true
     }
 }

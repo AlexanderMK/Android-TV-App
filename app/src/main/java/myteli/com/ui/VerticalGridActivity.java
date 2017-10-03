@@ -23,7 +23,7 @@ import com.example.android.tvleanback.R;
 /*
  * VerticalGridActivity that loads VerticalGridFragment
  */
-public class VerticalGridActivity extends LeanbackActivity {
+public class VerticalGridActivity extends MyteliActivity {
     /**
      * Called when the activity is first created.
      */

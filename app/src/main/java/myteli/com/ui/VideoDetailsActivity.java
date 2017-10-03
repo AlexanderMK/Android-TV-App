@@ -23,7 +23,7 @@ import com.example.android.tvleanback.R;
 /*
  * Details activity class that loads VideoDetailsFragment class
  */
-public class VideoDetailsActivity extends LeanbackActivity {
+public class VideoDetailsActivity extends MyteliActivity {
     public static final String SHARED_ELEMENT_NAME = "hero";
     public static final String VIDEO = "Video";
     public static final String NOTIFICATION_ID = "NotificationId";

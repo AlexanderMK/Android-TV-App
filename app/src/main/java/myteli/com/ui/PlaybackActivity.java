@@ -29,7 +29,7 @@ import com.example.android.tvleanback.R;
  * For more information on game controller capabilities with leanback, review the
  * <a href="https://developer.android.com/training/game-controllers/controller-input.html">docs</href>.
  */
-public class PlaybackActivity extends LeanbackActivity {
+public class PlaybackActivity extends MyteliActivity {
     private static final float GAMEPAD_TRIGGER_INTENSITY_ON = 0.5f;
     // Off-condition slightly smaller for button debouncing.
     private static final float GAMEPAD_TRIGGER_INTENSITY_OFF = 0.45f;

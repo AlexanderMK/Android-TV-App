@@ -25,7 +25,7 @@ import com.example.android.tvleanback.R;
 /*
  * SearchActivity for SearchFragment
  */
-public class SearchActivity extends LeanbackActivity {
+public class SearchActivity extends MyteliActivity {
     private SearchFragment mFragment;
 
     /**

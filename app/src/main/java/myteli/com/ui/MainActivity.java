@@ -21,12 +21,13 @@ import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.preference.PreferenceManager;
 
-import com.example.android.tvleanback.R;
+import myteli.com.R;
 
 /*
  * MainActivity class that loads MainFragment.
  */
-public class MainActivity extends LeanbackActivity {
+public class MainActivity extends MyteliActivity {
+
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

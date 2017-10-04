@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 
-package com.example.android.tvleanback.presenter;
+package myteli.com.presenter;
 
 import android.support.v17.leanback.widget.AbstractDetailsDescriptionPresenter;
 
-import com.example.android.tvleanback.model.Video;
+import myteli.com.model.Video;
 
 public class DetailsDescriptionPresenter extends AbstractDetailsDescriptionPresenter {
 

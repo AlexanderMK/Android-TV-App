@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.example.android.tvleanback.model;
+package myteli.com.model;
 
 import java.util.ArrayList;
 import java.util.List;

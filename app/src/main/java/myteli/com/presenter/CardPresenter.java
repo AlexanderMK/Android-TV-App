@@ -94,7 +94,7 @@ public class CardPresenter extends Presenter {
         ImageCardView cardView = (ImageCardView) viewHolder.view;
 
         // Remove references to images so that the garbage collector can free up memory.
-        cardView.setBadgeImage(null);
+        cardView.setBadgeImage(null)
         cardView.setMainImage(null);
     }
 }

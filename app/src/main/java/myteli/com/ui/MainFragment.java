@@ -68,7 +68,7 @@ import java.util.TimerTask;
 /*
  * Main class to show BrowseFragment with header and rows of videos
  */
-public class MainFragment extends BowseFragment implements LoaderManager.LoaderCallbacks<Cursor> {
+public class MainFragment extends BrowseFragment implements LoaderManager.LoaderCallbacks<Cursor> {
     private static final int BACKGROUND_UPDATE_DELAY = 300;
     private final Handler mHandler = new Handler();
     private ArrayObjectAdapter mCategoryRowAdapter;

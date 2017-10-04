@@ -159,7 +159,7 @@ public class MainFragment extends BrowseFragment implements LoaderManager.Loader
         });
     }
 
-    private void setupEvenListeners() {
+    private void setupEventListeners() {
         setOnSearchClickedListener(new View.OnClickListener() {
 
             @Override

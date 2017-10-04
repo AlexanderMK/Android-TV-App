@@ -55,7 +55,7 @@ import com.example.android.tvleanback.presenter.CardPresenter;
 /*
  * This class demonstrates how to do in-app search
  */
-public class SearchFragment extends android.support.v17.leanback.app.SearchFragment
+public class SearchFragment extends android.suport.v17.leanback.app.SearchFragment
         implements android.support.v17.leanback.app.SearchFragment.SearchResultProvider,
         LoaderManager.LoaderCallbacks<Cursor> {
     private static final String TAG = "SearchFragment";

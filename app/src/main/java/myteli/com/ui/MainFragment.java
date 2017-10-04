@@ -205,7 +205,7 @@ public class MainFragment extends BrowseFragment implements LoaderManager.Loader
     }
 
     @Override
-    public Loader<Cursor> onCreateLoader(int id, Bundle args) {
+    publi Loader<Cursor> onCreateLoader(int id, Bundle args) {
         if (id == CATEGORY_LOADER) {
             return new CursorLoader(
                     getActivity(),   // Parent activity context
@@ -229,7 +229,7 @@ public class MainFragment extends BrowseFragment implements LoaderManager.Loader
                     new String[]{category},  // Select based on the category id.
                     null // Default sort order
             );
-        }
+
     }
 
     @Override

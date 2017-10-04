@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.example.android.tvleanback.presenter;
+package myteli.com.presenter;
 
 import android.content.Context;
 import android.graphics.drawable.Drawable;
@@ -28,7 +28,7 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import com.example.android.tvleanback.R;
+import myteli.com.R;
 
 public class IconHeaderItemPresenter extends RowHeaderPresenter {
 

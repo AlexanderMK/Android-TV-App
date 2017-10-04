@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.example.android.tvleanback.presenter;
+package myteli.com.presenter;
 
 import android.content.res.Resources;
 import android.graphics.Color;
@@ -24,8 +24,8 @@ import android.view.Gravity;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
-import com.example.android.tvleanback.R;
-import com.example.android.tvleanback.ui.MainFragment;
+import myteli.com.R;
+import myteli.com.ui.MainFragment;
 
 public class GridItemPresenter extends Presenter {
     private final MainFragment mainFragment;

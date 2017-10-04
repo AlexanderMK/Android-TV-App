@@ -34,7 +34,7 @@ import com.example.android.tvleanback.R;
 
 import java.util.ArrayList;
 
-public class OnboardingFragment extends android.support.v17.leanback.app.OnboardingFragment {
+public class OnboardingFragment extens android.support.v17.leanback.app.OnboardingFragment {
     public static final String COMPLETED_ONBOARDING = "completed_onboarding";
 
     private static final int[] pageTitles = {

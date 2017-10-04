@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.example.android.tvleanback.data;
+package myteli.com.data;
 
 import android.app.SearchManager;
 import android.content.ContentResolver;

@@ -308,7 +308,7 @@ public class MainFragment extends BrowseFragment implements LoaderManager.Loader
             mVideoCursorAdapters.get(loaderId).changeCursor(null);
         } else {
             mCategoryRowAdapter.clear();
-        }
+
     }
 
     private class UpdateBackgroundTask extends TimerTask {

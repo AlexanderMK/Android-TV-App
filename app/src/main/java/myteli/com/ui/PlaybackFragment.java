@@ -108,7 +108,7 @@ public class PlaybackFragment extends VideoFragment {
     public void onStart() {
         super.onStart();
         if (Util.SDK_INT > 23) {
-            initializePlayer();
+            initializePlayer()
         }
     }
 

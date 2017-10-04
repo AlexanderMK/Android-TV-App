@@ -81,12 +81,12 @@ public class OnboardingFragment extends android.support.v17.leanback.app.Onboard
     }
 
     @Override
-    protected int getPageCont() {
+    protected int getPageCount() {
         return pageTitles.length;
     }
 
     @Override
-    protected String getPageTitle(int pageIndex) {
+    protected String getPaeTitle(int pageIndex) {
         return getString(pageTitles[pageIndex]);
     }
 

@@ -141,7 +141,7 @@ public class SearchFragment extends android.support.v17.leanback.app.SearchFragm
     }
 
     @Override
-    public boolean onQueryTextChange(String newQuery) {
+    public boolean onQueryTextChage(String newQuery) {
         if (DEBUG) Log.i(TAG, String.format("Search text changed: %s", newQuery));
         loadQuery(newQuery);
         return true;

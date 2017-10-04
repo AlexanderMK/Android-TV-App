@@ -72,7 +72,7 @@ public class OnboardingFragment extends android.support.v17.leanback.app.Onboard
         super.onFinishFragment();
         // Our onboarding is done
         // Update the shared preferences
-        SharedPreferences.EditorsharedPreferencesEditor =
+        SharedPreferences.Editor sharedPreferencesEditor =
             PreferenceManager.getDefaultSharedPreferences(getActivity()).edit();
         sharedPreferencesEditor.putBoolean(COMPLETED_ONBOARDING, true);
         sharedPreferencesEditor.apply();
@@ -81,7 +81,7 @@ public class OnboardingFragment extends android.support.v17.leanback.app.Onboard
     }
 
     @Override
-    protected int getPageCount() {
+    protected int getPageCont() {
         return pageTitles.length;
     }
 

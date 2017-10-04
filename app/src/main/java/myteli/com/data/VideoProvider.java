@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.example.android.tvleanback.data;
+package myteli.com.data;
 
 import android.app.SearchManager;
 import android.content.ContentProvider;
@@ -156,7 +156,7 @@ public class VideoProvider extends ContentProvider {
 
     @Override
     public Cursor query(@NonNull Uri uri, String[] projection, String selection,
-            String[] selectionArgs, String sortOrder) {
+                        String[] selectionArgs, String sortOrder) {
         Cursor retCursor;
         switch (sUriMatcher.match(uri)) {
             case SEARCH_SUGGEST: {
@@ -262,7 +262,7 @@ public class VideoProvider extends ContentProvider {
 
     @Override
     public int update(@NonNull Uri uri, ContentValues values, String selection,
-            String[] selectionArgs) {
+                      String[] selectionArgs) {
         final int rowsUpdated;
 
         switch (sUriMatcher.match(uri)) {

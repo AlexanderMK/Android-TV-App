@@ -31,7 +31,7 @@ public class OnboardingActivity extends Activity {
      */
     @Override
     public void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedIstanceState);
+        super.onCreate(savedInstanceState);
         setContentView(R.layout.onboarding);
     }
 }

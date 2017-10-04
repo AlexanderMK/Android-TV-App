@@ -176,7 +176,7 @@ public class SearchFragment extends android.support.v17.leanback.app.SearchFragm
     }
 
     @Override
-    public Loader<Cursor> onCrateLoader(int id, Bundle args) {
+    public Loader<Cursor> onCreateLoader(int id, Bundle args) {
         String query = mQuery;
         return new CursorLoader(
                 getActivity(),

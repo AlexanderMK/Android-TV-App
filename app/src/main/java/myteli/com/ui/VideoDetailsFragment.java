@@ -83,7 +83,7 @@ public class VideoDetailsFragment extends DetailsFragment
 
     // ID for loader that loads the video from global search.
     private int mGlobalSearchVideoId = 2;
-
+g
     private Video mSelectedVideo;
     private ArrayObjectAdapter mAdapter;
     private ClassPresenterSelector mPresenterSelector;

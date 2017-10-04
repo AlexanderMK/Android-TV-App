@@ -18,7 +18,7 @@
     <style name="Widget.Myteli.Title.Text" parent="Widget.Myteli.Title.Text">
     </style>
 
-    <style name="Widget.Myteli.Rows.VerticalGridView" parent="Widget.Leanback.Rows.VerticalGridView">
+    <style name="Widget.Myteli.Rows.VerticalGridView" parent="Widget.Myteli.Rows.VerticalGridView">
         <item name="android:paddingTop">96dp</item>
     </style>
 

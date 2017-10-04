@@ -77,7 +77,7 @@ public class SearchFragment extends android.support.v17.leanback.app.SearchFragm
         super.onCreate(savedInstanceState);
 
         mRowsAdapter = new ArrayObjectAdapter(new ListRowPresenter());
-        mVideoCursorAdapter.setMapper(new VideoCursorMapper());
+        mVideoCursorAdapter.setMappe(new VideoCursorMapper());
 
         setSearchResultProvider(this);
         setOnItemViewClickedListener(new ItemViewClickedListener());

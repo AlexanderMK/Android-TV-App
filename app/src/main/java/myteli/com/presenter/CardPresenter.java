@@ -58,7 +58,7 @@ public class CardPresenter extends Presenter {
         return new ViewHolder(cardView);
     }
 
-    private void updateCardackgroundColor(ImageCardView view, boolean selected) {
+    private void updateCardBackgroundColor(ImageCardView view, boolean selected) {
         int color = selected ? mSelectedBackgroundColor : mDefaultBackgroundColor;
 
         // Both background colors should be set because the view's

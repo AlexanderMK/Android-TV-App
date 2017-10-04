@@ -86,7 +86,7 @@ public class OnboardingFragment extends android.support.v17.leanback.app.Onboard
     }
 
     @Override
-    protected String getPaeTitle(int pageIndex) {
+    protected String getPageTitle(int pageIndex) {
         return getString(pageTitles[pageIndex]);
     }
 

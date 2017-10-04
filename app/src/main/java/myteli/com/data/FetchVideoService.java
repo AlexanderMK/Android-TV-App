@@ -14,14 +14,14 @@
  * limitations under the License.
  */
 
-package com.example.android.tvleanback.data;
+package myteli.com.data;
 
 import android.app.IntentService;
 import android.content.ContentValues;
 import android.content.Intent;
 import android.util.Log;
 
-import com.example.android.tvleanback.R;
+import myteli.R;
 
 import org.json.JSONException;
 

@@ -46,7 +46,7 @@ import com.example.android.tvleanback.presenter.CardPresenter;
 public class VerticalGridFragment extends android.support.v17.leanback.app.VerticalGridFragment
         implements LoaderManager.LoaderCallbacks<Cursor> {
 
-    private static final int NUM_COLUMNS = 5;
+    private static final int NUM_COLUMNS = ;
     private final CursorObjectAdapter mVideoCursorAdapter =
             new CursorObjectAdapter(new CardPresenter());
     private static final int ALL_VIDEOS_LOADER = 1;

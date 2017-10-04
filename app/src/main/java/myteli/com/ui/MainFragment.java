@@ -88,7 +88,7 @@ public class MainFragment extends BrowseFragment implements LoaderManager.Loader
 
         // Create a list to contain all the CursorObjectAdapters.
         // Each adapter is used to render a specific row of videos in the MainFragment.
-        mVideoCursorAdapters = new HashMap<>();
+        mVideoCursorAdapters = new Hash\Map<>();
 
         // Start loading the categories from the database.
         getLoaderManager().initLoader(CATEGORY_LOADER, null, this);

@@ -83,7 +83,7 @@
     <string name="mobile_welcome_description">Try opening this on your Android TV for a great experience.</string>
 
     <!-- Strings related to onboarding -->
-    <string name="onboarding_title_welcome">Welcomto myTeli</string>
+    <string name="onboarding_title_welcome">Welcome to myTeli</string>
     <string name="onboarding_title_design">Designed for Android TV</string>
     <string name="onboarding_title_simple">Simple to include</string>
     <string name="onboarding_title_project">Check out it out</string>

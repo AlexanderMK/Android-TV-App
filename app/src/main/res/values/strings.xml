@@ -80,13 +80,13 @@
     <string name="header_icon">Header icon</string>
 
     <string name="mobile_welcome_title">Welcome to myTeli</string>
-    <string name="mobile_welcome_dscription">Try opening this on your Android TV for a great experience.</string>
+    <string name="mobile_welcome_description">Try opening this on your Android TV for a great experience.</string>
 
     <!-- Strings related to onboarding -->
-    <string name="onboarding_title_welcome">Welcome to the Leanback Sample</string>
+    <string name="onboarding_title_welcome">Welcomto myTeli</string>
     <string name="onboarding_title_design">Designed for Android TV</string>
     <string name="onboarding_title_simple">Simple to include</string>
-    <string name="onboarding_title_project">Check out the Sample Project</string>
+    <string name="onboarding_title_project">Check out it out</string>
 
     <string name="onboarding_description_welcome">This is the Onboarding Fragment, which runs when the user first opens the app</string>
     <string name="onboarding_description_design">The Leanback sample shows how to quickly design apps designed for a 10-foot user interface</string>
